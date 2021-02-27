@@ -1,0 +1,33 @@
+{
+    "version": "v2",
+    "content": {
+      "messages": [
+        {
+          "type": "text",
+          "text": "simple text"
+        },
+        {
+          ...Another messages
+        }
+      ],
+      "actions": [  //optional
+        {
+          "action": "add_tag",
+          "tag_name": "example tag"
+        },
+        {
+          ...Another actions
+        }
+      ],
+      "quick_replies": [ //optional
+        {
+          "type": "node",
+          "caption": "Quick reply text",
+          "target": "My Content"
+        },
+        {
+          ...Another quick replies
+        }
+      ]
+    }
+  }s
