@@ -4,30 +4,17 @@
       "messages": [
         {
           "type": "text",
-          "text": "simple text"
-        },
-        {
-          ...Another messages
+          "text": "simple text with button",
+          "buttons": [
+            {
+              "type": "url",
+              "caption": "External link",
+              "url": "https://manychat.com"
+            }
+          ]
         }
       ],
-      "actions": [  //optional
-        {
-          "action": "add_tag",
-          "tag_name": "example tag"
-        },
-        {
-          ...Another actions
-        }
-      ],
-      "quick_replies": [ //optional
-        {
-          "type": "node",
-          "caption": "Quick reply text",
-          "target": "My Content"
-        },
-        {
-          ...Another quick replies
-        }
-      ]
+      "actions": [],
+      "quick_replies": []
     }
-  }s
+  }
